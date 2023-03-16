@@ -1,0 +1,31 @@
+body{
+    background-color: bisque;
+}
+#uno{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    background-color:darkgray ;
+}
+.nvg1{
+    display: inline-block;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+#nvg2{
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:gray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
