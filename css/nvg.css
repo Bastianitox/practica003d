@@ -1,6 +1,16 @@
-body{
-    background-color: bisque;
+@font-face {
+    font-family: Minecraft;
+    src: url(Minecraft.ttf)
+  }
+
+*{
+    font-family:Minecraft;
 }
+
+body{
+    background-image: linear-gradient(to right, rgb(235, 233, 126) , rgb(226, 226, 83));
+}
+
 #uno{
     margin-left: 10%;
     margin-right: 10%;
