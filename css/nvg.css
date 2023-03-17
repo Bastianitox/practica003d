@@ -7,10 +7,13 @@
     font-family:Minecraft;
 }
 
+
 body{
+
     background-image: linear-gradient(to right, rgb(235, 233, 126) , rgb(226, 226, 83));
 }
 
+/*NAVEGACION*/
 #uno{
     margin-left: 10%;
     margin-right: 10%;
@@ -38,4 +41,23 @@ li a {
     position: fixed;
     top: 0;
     width: 100%;
+  }
+
+/*IMAGENES*/
+
+  div.imagenes {
+    text-align: center;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:inline-block;
+  }
+  
+  div.texto {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  div.centro{
+      margin-left: 25%;
   }
