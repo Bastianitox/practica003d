@@ -1,6 +1,6 @@
 @font-face {
     font-family: Minecraft;
-    src: url(Minecraft.ttf)
+    src: url(njnaruto.ttf)
   }
 
 *{
@@ -9,8 +9,8 @@
 
 
 body{
-
-    background-image: linear-gradient(to right, rgb(235, 233, 126) , rgb(226, 226, 83));
+    background-color: #BDBCFF;
+    /*background-image: linear-gradient(to right, rgb(235, 233, 126) , rgb(226, 226, 83));*/
 }
 
 /*NAVEGACION*/
@@ -37,7 +37,7 @@ li a {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:gray;
+    background-color:#82B9B2;
     position: fixed;
     top: 0;
     width: 100%;
