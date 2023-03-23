@@ -1,0 +1,17 @@
+
+    .conta div {
+        border: 1px solid gray;
+        padding: 8px;
+      }
+  
+    .conta  h1 {
+        text-align: center;
+        text-transform: uppercase;
+        color: #4CAF50;
+      }
+  
+    .conta p {
+        text-indent: 50px;
+        text-align: justify;
+        letter-spacing: 3px;
+      }
