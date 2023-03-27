@@ -10,15 +10,23 @@
 
 body{
     background-color: #BDBCFF;
-    background-image: linear-gradient(to right, rgb(235, 233, 126) , rgb(226, 226, 83));
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(252, 252, 252));
 }
 
 /*NAVEGACION*/
+
+#logoong{
+  min-width: 100px;
+  width: 10%;
+  height: 80px; 
+  float: left;
+}
+
 #uno{
     margin-left: 10%;
     margin-right: 10%;
     text-align: justify;
-    background-color:darkgray ;
+    background-color:rgb(253, 223, 223) ;
 }
 .nvg1{
     display: inline-block;
