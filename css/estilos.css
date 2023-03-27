@@ -1,17 +1,21 @@
 
-    .conta div {
-        border: 1px solid rgb(247, 209, 209);
-        padding: 8px;
-      }
+.conta div {
+    border: 1px solid rgb(247, 209, 209);
+    padding: 8px;
+  }
+
+.conta  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #1a777e;
+  }
+
+.conta p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+  }
+.sombra{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
   
-    .conta  h1 {
-        text-align: center;
-        text-transform: uppercase;
-        color: #1a777e;
-      }
-  
-    .conta p {
-        text-indent: 50px;
-        text-align: justify;
-        letter-spacing: 3px;
-      }

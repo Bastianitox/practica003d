@@ -33,8 +33,9 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     text-align: justify;
-    background-color:rgb(255, 255, 255) ;
+    background-color:rgb(253, 223, 223) ;
 }
+
 .nvg1{
     display: inline-block;
 }
@@ -62,9 +63,10 @@ li a {
   background-color: #82B9B2;
 }
 
-#uno{
-  font-size: 20px !important;
-  font-size: 1rem;
+
+.nosotros{
+  margin-left: 10%;
+  margin-right: 10%;
 }
 /*IMAGENES*/
   div.imagen{
@@ -96,6 +98,7 @@ li a {
 
 .titulo{
   background-color: beige;
+  border-radius: 50px;
   align-items: center;
   justify-content: center;
-}
+} 
