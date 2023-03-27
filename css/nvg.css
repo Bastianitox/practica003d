@@ -16,9 +16,8 @@ body{
 /*NAVEGACION*/
 
 #logoong{
-  min-width: 100px;
-  width: 10%;
-  height: 80px; 
+  width: 50px;
+  
   float: left;
 }
 
@@ -48,11 +47,12 @@ li a {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#82B9B2;
     top: 0;
     width: 100%;
   }
-
+.fondonvg{
+  background-color: #82B9B2;
+}
 /*IMAGENES*/
   div.imagen{
     text-align: center;
@@ -73,4 +73,7 @@ li a {
   div.texto {
     text-align: center;
     padding: 10px 20px;
+  }
+  div.imagenes2{
+    width: 50px !important;
   }
