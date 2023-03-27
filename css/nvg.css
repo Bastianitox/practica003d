@@ -25,20 +25,13 @@ body {
 
 #logoong{
   width: 50px;
-
   float: left;
-}
-
-#uno{
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: justify;
-    background-color:rgb(253, 223, 223) ;
 }
 
 .nvg1{
     display: inline-block;
 }
+
 li a {
     display: block;
     color: white;
@@ -58,11 +51,11 @@ li a {
     overflow: hidden;
     top: 0;
     width: 100%;
-  }
+}
+
 .fondonvg{
   background-color: #82B9B2;
 }
-
 
 .nosotros{
   margin-left: 10%;
@@ -78,7 +71,7 @@ li a {
   }
   div.imagenes {
     text-align: center;
-    width: 100%;
+    width: 60%;
     max-height: 100%;
     max-width: 300px;
     background-color: white;
@@ -86,15 +79,27 @@ li a {
     display:inline-block;
   }
   
-  div.texto {
+div.texto{
     text-align: center;
     padding: 10px 20px;
-  }
+}
+
 
 .descripcion{
-  color: rgb(0, 0, 0);
-  top: 100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 15px;
+  text-align: justify;
 }
+#descripcion1{
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  padding: 15px;
+  text-align: justify;
+}
+
 
 .titulo{
   margin-top: 10px;
