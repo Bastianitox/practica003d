@@ -29,12 +29,16 @@ body {
   float: left;
 }
 
+<<<<<<< HEAD
 #uno{
     margin-left: 10%;
     margin-right: 10%;
     text-align: justify;
     background-color:rgb(255, 255, 255) ;
 }
+=======
+
+>>>>>>> 256331d878e2bd1b04c2bc9bbb0f7801458f70c0
 .nvg1{
     display: inline-block;
 }
@@ -62,9 +66,10 @@ li a {
   background-color: #82B9B2;
 }
 
-#uno{
-  font-size: 20px !important;
-  font-size: 1rem;
+
+.nosotros{
+  margin-left: 10%;
+  margin-right: 10%;
 }
 /*IMAGENES*/
   div.imagen{
@@ -88,7 +93,7 @@ li a {
     text-align: center;
     padding: 10px 20px;
   }
-
+/* 
 .descripcion{
   color: rgb(0, 0, 0);
   top: 100px;
@@ -98,4 +103,4 @@ li a {
   background-color: beige;
   align-items: center;
   justify-content: center;
-}
+} */
