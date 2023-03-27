@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/nvg.css">
+
     <!-- CSS Bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/nvg.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Contactos</title>
 </head>
 <style>
@@ -87,7 +89,7 @@
         <!-- BARRA DE NAVEGACION -->
         <header>
             <div class="row fondonvg nvg logoong">
-                <div class="col-md-12 col-sm-12 col-12">
+                <div class="col-md-12 col-sm-12 col-12 sombra">
                     <ul id="nvg2">
                         <img src="img/logoong.png" id="logoong">
                         <li class="nvg1"><a href="Inicio.html">Inicio</a></li>
@@ -109,55 +111,37 @@
                 <h2>Contáctanos</h2>
             </div>
             <div class="col-md-4">
-                
+
             </div>
         </div>
         <div class="row">
-            
-        <div class="container">
-            <form action="/action_page.php">
-                <div class="row">
-                    <div class="col-25">
-                        <label for="name">Nombre</label>
+
+            <div class="container sombra">
+                        <div class="col-12 col-md-12 col-sm-12">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="nombre" placeholder="Tu nombre...">
+                        </div>
+                        <div class="col-12 col-md-12 col-sm-12">
+                            <label for="mail">Mail</label>
+                            <input type="text" id="mail" name="mail" placeholder="Tu mail">
+                        </div>
+                        <div class="col-12 col-md-12 col-sm-12">
+                            <label for="asunto">Asunto</label>
+                            <input type="text" id="asunto" name="asunto" placeholder="Asunto...">
+                        </div>
+                        <div class="col-12 col-md-12 col-sm-12">
+                            <label for="Mensaje">Mensaje</label>
+                            <textarea id="msg" name="msg" placeholder="Escribe tu mensaje..."
+                                style="height:200px"></textarea>
+                        </div>
+                    <br>
+                    <div class="row">
+                        <input type="submit" value="Submit">
                     </div>
-                    <div class="col-75">
-                        <input type="text" id="name" name="nombre" placeholder="Tu nombre...">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-25">
-                        <label for="mail">Mail</label>
-                    </div>
-                    <div class="col-75">
-                        <input type="text" id="mail" name="mail" placeholder="Tu mail">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-25">
-                        <label for="asunto">Asunto</label>
-                    </div>
-                    <div class="col-75">
-                        <input type="text" id="asunto" name="asunto" placeholder="Asunto...">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-25">
-                        <label for="Mensaje">Mensaje</label>
-                    </div>
-                    <div class="col-75">
-                        <textarea id="msg" name="msg" placeholder="Escribe tu mensaje..."
-                            style="height:200px"></textarea>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <input type="submit" value="Submit">
-                </div>
-            </form>
-        </div>
+            </div>
         </div>
     </div>
-    
+
     <!-- JS Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
