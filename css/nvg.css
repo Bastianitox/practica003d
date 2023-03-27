@@ -11,8 +11,17 @@
 body{
     background-color: #BDBCFF;
     background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(252, 252, 252));
-}
+} 
 
+body {
+  background-image: url(../img/fondo2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  /* filter: blur(5px);  */
+}
 /*NAVEGACION*/
 
 #logoong{
