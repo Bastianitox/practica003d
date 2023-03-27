@@ -14,7 +14,7 @@ body{
 } 
 /* FONDO PAGINA */
 body {
-  background-image: url(../img/fondo2.jpg);
+  background-image: url(../img/fondo1.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: cover;
@@ -33,7 +33,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     text-align: justify;
-    background-color:rgb(253, 223, 223) ;
+    background-color:rgb(255, 255, 255) ;
 }
 .nvg1{
     display: inline-block;
@@ -88,3 +88,14 @@ li a {
     text-align: center;
     padding: 10px 20px;
   }
+
+.descripcion{
+  color: rgb(0, 0, 0);
+  top: 100px;
+}
+
+.titulo{
+  background-color: beige;
+  align-items: center;
+  justify-content: center;
+}
