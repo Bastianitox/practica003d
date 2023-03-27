@@ -29,12 +29,7 @@ body {
   float: left;
 }
 
-#uno{
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: justify;
-    background-color:rgb(253, 223, 223) ;
-}
+
 .nvg1{
     display: inline-block;
 }
@@ -62,14 +57,7 @@ li a {
   background-color: #82B9B2;
 }
 
-#uno{
-  font-size: 20px !important;
-  font-size: 1rem;
-}
 
-.titulo{
-  margin-top: 100px;
-}
 .nosotros{
   margin-left: 10%;
   margin-right: 10%;
