@@ -1,17 +1,35 @@
+.sombra{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-    .conta div {
-        border: 1px solid rgb(247, 209, 209);
-        padding: 8px;
-      }
-  
-    .conta  h1 {
-        text-align: center;
-        text-transform: uppercase;
-        color: #1a777e;
-      }
-  
-    .conta p {
-        text-indent: 50px;
-        text-align: justify;
-        letter-spacing: 3px;
-      }
+#uno{
+  font-size: 20px !important;
+  font-size: 1rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+  background-color:rgb(255, 255, 255) ;
+  padding: 15px;
+  border-radius: 5px;
+}
+.conta{
+    border: 1px solid rgb(247, 209, 209);
+    padding: 8px;
+  }
+
+.conta  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #1a777e;
+}
+
+.conta p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+.titulo{
+  background-color: #82B9B2;
+  border-radius: 50px;
+}
