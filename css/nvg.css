@@ -29,7 +29,7 @@ body {
 }
 
 .nvg1{
-    display: inline-block;
+  display: inline-block;
 }
 
 li a {
@@ -41,6 +41,9 @@ li a {
   }
 .verde{
   background-color: #82B9B2;
+}
+#nvg2 a:hover{
+  background-color: #658d88;
 }
 #nvg2{
     text-align: center;
