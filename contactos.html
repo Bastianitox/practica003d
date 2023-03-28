@@ -11,78 +11,9 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/nvg.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contactos.css">
     <title>Contactos</title>
 </head>
-<style>
-    * {
-        box-sizing: border-box;
-    }
-
-    input[type=text],
-    select,
-    textarea {
-        width: 100%;
-        padding: 12px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        resize: vertical;
-    }
-
-    label {
-        padding: 12px 12px 12px 0;
-        display: inline-block;
-    }
-
-    input[type=submit] {
-        background-color: #04AA6D;
-        color: white;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        float: right;
-    }
-
-    input[type=submit]:hover {
-        background-color: #45a049;
-    }
-
-    .container {
-        border-radius: 5px;
-        background-color: #f2f2f2;
-        padding: 15px;
-    }
-
-    .col-25 {
-        float: left;
-        width: 20%;
-        margin-top: 6px;
-    }
-
-    .col-75 {
-        float: left;
-        width: 60%;
-        margin-top: 6px;
-    }
-
-    /* Clear floats after the columns */
-    .row::after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-
-    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-    @media screen and (max-width: 600px) {
-
-        .col-25,
-        .col-75,
-        input[type=submit] {
-            width: 50%;
-            margin-top: 0;
-        }
-    }
-</style>
 
 <body>
     <div class="container-fluid" style="text-align: center;">
@@ -115,29 +46,51 @@
             </div>
         </div>
         <div class="row">
-
-            <div class="container sombra">
-                        <div class="col-12 col-md-12 col-sm-12">
-                            <label for="name">Nombre</label>
-                            <input type="text" id="name" name="nombre" placeholder="Tu nombre...">
-                        </div>
-                        <div class="col-12 col-md-12 col-sm-12">
-                            <label for="mail">Mail</label>
-                            <input type="text" id="mail" name="mail" placeholder="Tu mail">
-                        </div>
-                        <div class="col-12 col-md-12 col-sm-12">
-                            <label for="asunto">Asunto</label>
-                            <input type="text" id="asunto" name="asunto" placeholder="Asunto...">
-                        </div>
-                        <div class="col-12 col-md-12 col-sm-12">
-                            <label for="Mensaje">Mensaje</label>
-                            <textarea id="msg" name="msg" placeholder="Escribe tu mensaje..."
-                                style="height:200px"></textarea>
-                        </div>
+            <div class="col-md-8 col-sm-12 col-12">
+                <div class="container sombra abajo">
+                    <div class="col-12 col-md-12 col-sm-12">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="nombre" placeholder="Tu nombre...">
+                    </div>
+                    <div class="col-12 col-md-12 col-sm-12">
+                        <label for="mail">Mail</label>
+                        <input type="text" id="mail" name="mail" placeholder="Tu mail">
+                    </div>
+                    <div class="col-12 col-md-12 col-sm-12">
+                        <label for="asunto">Asunto</label>
+                        <input type="text" id="asunto" name="asunto" placeholder="Asunto...">
+                    </div>
+                    <div class="col-12 col-md-12 col-sm-12">
+                        <label for="Mensaje">Mensaje</label>
+                        <textarea id="msg" name="msg" placeholder="Escribe tu mensaje..."
+                            style="height:200px"></textarea>
+                    </div>
                     <br>
                     <div class="row">
                         <input type="submit" value="Submit">
                     </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-12">
+                
+                <div class="container contactar sombra">
+                    <p class="grande">Redes Sociales</p>
+                    <div class="row">
+                        <div class="left abajo">
+                            <img src="img/correo.png" class="imagencon derecha">
+                            veterinariaong@gmail.com
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="left">
+                            <img src="img/whatsapp.png" class="imagencon derecha">
+                            +56 9 92062715
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="img/perro callcenter.jpg" class="imagen">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
