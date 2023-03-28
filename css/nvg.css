@@ -73,6 +73,7 @@ li a {
     height: 250px;
   }
   div.imagenes {
+    margin-bottom: 10px;
     text-align: center;
     width: 60%;
     max-height: 100%;
