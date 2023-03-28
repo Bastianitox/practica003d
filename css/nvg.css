@@ -27,7 +27,14 @@ body {
   width: 50px;
   float: left;
 }
-
+@media only screen and (max-width: 600px) {
+  .nvg1 {
+    font-size: 12px;
+  }
+  #logoong{
+    width: 0%;
+  }
+}
 .nvg1{
   display: inline-block;
 }
