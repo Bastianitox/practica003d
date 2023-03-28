@@ -64,13 +64,19 @@ li a {
 /*IMAGENES*/
   div.imagen{
     text-align: center;
-    width: 25%;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
     max-width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display:inline-block;
   }
   .imagenes img{
     height: 250px;
+  }
+  .imagen img{
+    border-radius: 20px;
   }
   div.imagenes {
     margin-bottom: 10px;
